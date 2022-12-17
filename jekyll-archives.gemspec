@@ -3,13 +3,13 @@
 require_relative "lib/jekyll-archives/version"
 
 Gem::Specification.new do |s|
-  s.name        = "jekyll-archives"
-  s.summary     = "Post archives for Jekyll."
-  s.description = "Automatically generate post archives by dates, tags, and categories."
+  s.name        = "jekyll-archives-surya"
+  s.summary     = "Cast archives for Jekyll."
+  s.description = "Automatically generate post archives by cast, director, and gener."
   s.version     = Jekyll::Archives::VERSION
-  s.authors     = ["Alfred Xing"]
+  s.authors     = ["Jayasurya"]
 
-  s.homepage    = "https://github.com/jekyll/jekyll-archives"
+  s.homepage    = "https://github.com/300mb/jekyll-archives"
   s.licenses    = ["MIT"]
 
   all_files     = `git ls-files -z`.split("\x0")
