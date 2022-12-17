@@ -3,7 +3,7 @@
 require_relative "lib/jekyll-archives/version"
 
 Gem::Specification.new do |s|
-  s.name        = "jekyll-archives-surya"
+  s.name        = "jekyll-archives"
   s.summary     = "Cast archives for Jekyll."
   s.description = "Automatically generate post archives by cast, director, and gener."
   s.version     = Jekyll::Archives::VERSION
